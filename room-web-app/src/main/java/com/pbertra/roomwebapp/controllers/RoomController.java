@@ -23,7 +23,7 @@ public class RoomController {
 
     @GetMapping
     public String getAllRooms(Model model) {
-        model.addAttribute("rooms", roomService.getAllRooms());
+        model.addAttribute("rooms", roomService.getAllRooms()); // rooms is the name of the template here
         return "rooms";
     }
 }
