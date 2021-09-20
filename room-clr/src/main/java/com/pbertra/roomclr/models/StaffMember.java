@@ -1,4 +1,4 @@
-package com.pbertra.roomwebapp.models;
+package com.pbertra.roomclr.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
